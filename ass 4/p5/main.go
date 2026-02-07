@@ -7,7 +7,13 @@ import (
 
 func main() {
 	var l, w float64
+
+	fmt.Print("Enter length: ")
 	fmt.Scanln(&l)
+
+	fmt.Print("Enter width: ")
 	fmt.Scanln(&w)
-	fmt.Println(rectangle.Area(l, w))
+
+	area := rectangle.Area(l, w)
+	fmt.Println("Area of Rectangle =", area)
 }
