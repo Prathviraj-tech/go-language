@@ -1,3 +1,0 @@
-This is sample data file.
-Go language file handling example.
-data.txt read completed 
